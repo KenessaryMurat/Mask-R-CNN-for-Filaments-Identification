@@ -1,4 +1,4 @@
-File for training and testing is located in /samples/training.ipynb. Dataset contains training and validation folders with images of molecular clouds and JSON files. Alongside required libraries in requirements.txt, you also need to have cudatoolkit 10.0.130 and cudnn 7.6.5. Below is README from original Matterport Mask R-CNN 
+File for training and testing is located in /samples/training.ipynb. Dataset contains training and validation folders with images of molecular clouds and JSON files. Alongside required libraries in requirements.txt, you also need to have cudatoolkit 10.0.130 and cudnn 7.6.5. Below is README from original Matterport Mask R-CNN.
 
 # Mask R-CNN for Object Detection and Segmentation
 
