@@ -1,4 +1,6 @@
-File for training and testing is located in /samples/training.ipynb. Dataset contains training and validation folders with images of molecular clouds and JSON files. Alongside required libraries in requirements.txt, you also need to have cudatoolkit 10.0.130 and cudnn 7.6.5. Below is README from original Matterport Mask R-CNN.
+File for training and testing is located in /samples/training.ipynb. training.ipynb was run locally in Miniconda environment version 23.5.2 and Python version 3.7.1. Dataset contains training and validation folders with images of molecular clouds and JSON files. Images were converted from .fits data from Herschel telescope and resized to 256x256. JSON annotations were obtained by running Contour method from OpenCV Python on masks. Quality of annotations is uncertain, there can be a better way to obtain annotations. Alongside required libraries in requirements.txt, also need to install cudatoolkit 10.0.130 and cudnn 7.6.5. There were several errors during runtime of training.ipynb due to incompatibilities between libraries but there shouldn't be any incompatibilities in requirements.txt (unless I forgot to mention a package). Mask R-CNN can be run on GPU but there were errors when I tried it so training.ipynb only runs in CPU. All of the training models go into logs folder.
+
+Below is README from original Matterport Mask R-CNN.
 
 # Mask R-CNN for Object Detection and Segmentation
 
